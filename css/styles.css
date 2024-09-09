@@ -240,6 +240,7 @@ img {
 }
 .about-list {
   display: flex;
+  flex-basis: calc((100% - 3 * 24px) / 4);
   gap: 24px;
 }
 .about-list-item {
@@ -288,6 +289,7 @@ img {
 }
 .team-list {
   display: flex;
+  flex-basis: calc((100% - 3 * 24px) / 4);
   flex-wrap: wrap;
   flex-grow: 4;
   gap: 24px;
@@ -346,6 +348,7 @@ padding-bottom: 32px;
 }
 .portfolio-list {
   display: flex;
+  flex-basis: calc((100% - 3 * 24px) / 3);
   flex-wrap: wrap;
   flex-grow: 3;
   gap: 24px;
