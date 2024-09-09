@@ -12,6 +12,7 @@
   --cl-background-light: #f4f4fd;
   --cl-accent: #4d5ae5;
   --cl-links: #404bbf;
+  --cl-border: #E7E9FC;
 
   /* Others */
 }
@@ -345,7 +346,7 @@ padding: 32px 16px;
 .portfolio-list-item-desc {
   padding: 32px 16px;
   align-items: left;
-  border: 1px solid #E7E9FC;
+  border: 1px solid var(--cl-border);
   border-top: 0px;
 }
 .portfolio-list-item-title {
